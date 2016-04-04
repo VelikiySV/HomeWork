@@ -2,9 +2,10 @@
  * Created by Velikiy on 03.04.2016.
  */
 public class TypesOfData {
+    //https://ru.wikibooks.org/wiki/Java/%D0%A2%D0%B8%D0%BF%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
     static byte b = 5; // 8 bit (from -128 to 127)
     static short s = 8; // 16 bit (from -32768 to 32767)
-    static char c = 65; // 16 bit (from 0 to 65535)
+    static char c = 90; // 16 bit (from 0 to 65535)
     static int i = 90; // 32 bit (from -2147483648 to 2147483647)
     static long l = 100; // 64 bit (from -9223372036854775808 to 9223372036854775807)
 

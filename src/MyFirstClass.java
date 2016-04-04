@@ -16,6 +16,7 @@ public class MyFirstClass {
 
     public static String myName () {
         name = "newVova";
+
         return "It is method: My name " + name + " and i'm " + age;
 
     }
