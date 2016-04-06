@@ -1,3 +1,5 @@
+package home.work.lecture3;
+
 import java.util.Scanner;
 
 /**
