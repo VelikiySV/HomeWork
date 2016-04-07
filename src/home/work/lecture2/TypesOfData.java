@@ -1,3 +1,5 @@
+package home.work.lecture2;
+
 /**
  * Created by Velikiy on 03.04.2016.
  */

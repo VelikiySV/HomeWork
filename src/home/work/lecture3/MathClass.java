@@ -25,12 +25,12 @@ public class MathClass {
 
         System.out.println(1. / 0);
 
-
+//
          DecimalFormat df2 = new DecimalFormat("0.00");
 
-            int angle = 90;
-            double angleInRadians = Math.toRadians(angle);
-            double sin = Math.sin(angleInRadians);
+            int angles = 90;
+            angleInRadians = Math.toRadians(angle);
+            double sins = Math.sin(angleInRadians);
 
             System.out.println(df2.format(sin));
 
