@@ -5,12 +5,15 @@ package home.work.lecture4;
  */
 public class IsAgeChecker {
     public static void main(String[] args) {
-        //Input
-        int age = 1;
+        int age = 125;
+        boolean myAge = true;
+        boolean notMyAge = false;
 
-        boolean isAge = (age >= 1) && (<= 120);
-
-        if (isAge) {
-            System.out.println("Age is ");
+        if ((age >= 1) && (age <= 120)){
+            System.out.println(myAge);
+        }else{
+            System.out.println(notMyAge);
+        }
     }
 }
+
