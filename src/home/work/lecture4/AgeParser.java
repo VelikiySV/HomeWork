@@ -7,7 +7,9 @@ import java.util.Scanner;
  */
 public class AgeParser {
     public static void main(String[] args) {
-        String age = "125";
+        System.out.println("Please enter your age " );
+        Scanner scanner = new Scanner(System.in);
+        String age = scanner.next();
         int parsAge = Integer.parseInt(age);
 
         if ((parsAge >=1) && (parsAge <=120)){
@@ -16,4 +18,5 @@ public class AgeParser {
             throw new IllegalArgumentException("Incorrect age, please enter valid value");
         }
     }
+
 }
