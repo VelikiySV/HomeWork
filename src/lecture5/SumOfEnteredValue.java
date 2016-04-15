@@ -11,10 +11,11 @@ public class SumOfEnteredValue {
         Scanner enterValue = new Scanner(System.in);
         int sum = 0;
         int nextValue = 0;
+
         do {
-            sum += nextValue;
             nextValue = enterValue.nextInt();
+            sum += nextValue;
         } while (nextValue > 0);
-        System.out.println(sum);
+        System.out.println("Sum of entered values is " + sum);
     }
 }
