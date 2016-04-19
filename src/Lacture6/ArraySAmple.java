@@ -11,19 +11,21 @@ public class ArraySAmple {
         a [1] = 10;
         int [] b = {2, 4, 7, 2};
 
-        System.out.println(a[4]);
+        System.out.println(a[3]);
         System.out.println(Arrays.toString(a));
         System.out.println(b.length);
 
-        sum(b);
+        int sum = sum(b);
+        System.out.println(sum);
     }
 
-    private static void sum(int[] b) {
+    private static int sum(int[] b) {
         int sum = 0;
         for (int i = 0; i < b.length; i++) {
             int elem = b[i];
             sum += elem;
         }
+        return sum;
     }
 
 }
