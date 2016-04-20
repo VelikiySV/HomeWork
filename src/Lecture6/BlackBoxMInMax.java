@@ -1,4 +1,4 @@
-package Lacture6;
+package Lecture6;
 
 /**
  * Created by Volodymyr_Silitskyi on 4/14/2016.
