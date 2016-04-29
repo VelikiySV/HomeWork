@@ -5,6 +5,7 @@
 // */
 //public class TrianglePrinter {
 //    public static void main(String[] args) {
+//        int [] size = {5, 4, 4, 2, 9};
 //        checkSize();
 //
 //        for (int rowSize = 0; rowSize < size ; rowSize++) {
@@ -17,6 +18,5 @@
 //            throw new IllegalArgumentException("Incorrect size");
 //        }
 //    }
-//
 //}
 
