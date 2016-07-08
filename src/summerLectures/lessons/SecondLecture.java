@@ -1,4 +1,4 @@
-package summerLectures;
+package summerLectures.lessons;
 
 import java.util.Scanner;
 
