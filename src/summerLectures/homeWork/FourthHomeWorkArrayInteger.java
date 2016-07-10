@@ -10,7 +10,8 @@ public class FourthHomeWorkArrayInteger {
         System.out.println("Please enter size of array");
         Scanner input = new Scanner(System.in);
         int [] sizeArray = new int[input.nextInt()];
-        for (int i = 0; i <= sizeArray.length  ; i++) {
+
+        for (int i = 0;i <= sizeArray.length; i++) {
             sizeArray [i] = i;
             System.out.println(sizeArray[i]);
         }
