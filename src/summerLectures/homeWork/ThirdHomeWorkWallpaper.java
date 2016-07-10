@@ -11,7 +11,7 @@ public class ThirdHomeWorkWallpaper {
         Scanner input = new Scanner(System.in);
         int row = input.nextInt();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
             for (int j = 0; j < row; j++) {
                 if (j % 2 != 0) {
                     System.out.print("+++");
@@ -25,3 +25,4 @@ public class ThirdHomeWorkWallpaper {
         }
     }
 }
+

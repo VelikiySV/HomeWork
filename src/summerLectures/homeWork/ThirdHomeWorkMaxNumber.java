@@ -14,6 +14,7 @@ public class ThirdHomeWorkMaxNumber {
         int num3 = input.nextInt();
         int num4 = input.nextInt();
         int max = num1;
+//        int max2 = num3;
 
         if (num2 > max) {
             max = num2;
@@ -24,6 +25,16 @@ public class ThirdHomeWorkMaxNumber {
         if (num4 > max) {
             max = num4;
         }
+
+//        if(num2>max){
+//            max = num2;
+//        }
+//        if(num4>max2){
+//            max2 = num4;
+//        }
+//        if (max>max2){
+//            System.out.println(max);
+//        }else{
         System.out.println("Max = " + max);
 
 /*        if (num1 > num2) {

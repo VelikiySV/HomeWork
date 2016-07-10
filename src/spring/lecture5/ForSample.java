@@ -22,7 +22,6 @@ public class ForSample {
             System.out.print(i + " ");
         }
 
-
     }
 
 }

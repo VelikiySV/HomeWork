@@ -10,11 +10,11 @@ public class ThirdHomeWorkHouseCycle {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Apartment: ");
-        int apartmnetn = input.nextInt();
+        int apartment = input.nextInt();
 
-        int porch = (apartmnetn - 1) / 36 + 1;
-        int floor = (apartmnetn - 36 * (porch - 1) - 1) / 4 + 1;
-        if (apartmnetn > 0 && apartmnetn < 145){
+        int porch = (apartment - 1) / 36 + 1;
+        int floor = (apartment - 36 * (porch - 1) - 1) / 4 + 1;
+        if (apartment > 0 && apartment < 145){
             System.out.println("porch: " + porch);
 
             System.out.println("floor: " + floor);
@@ -23,6 +23,5 @@ public class ThirdHomeWorkHouseCycle {
             System.out.println("This apartment does not exist");
         }
         input.close();
-
     }
 }
